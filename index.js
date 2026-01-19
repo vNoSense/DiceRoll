@@ -35,8 +35,9 @@ if (randomNumber1>randomNumber2){
 }if(randomNumber1<randomNumber2){
         document.querySelector(".container h1").innerHTML="<img class='hatul' src='./images/huh-cat.gif' alt='hatul'> NoSense WON!"
 }if(randomNumber1===randomNumber2){
-        document.querySelector(".container h1").innerHTML="🤡 DRAW!"
+        document.querySelector(".container h1").innerHTML="<span>🤡</span> DRAW!"
 }
 }
 console.log(randomNumber1);
+
 console.log(randomNumber2);
