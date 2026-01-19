@@ -81,7 +81,10 @@ h1 span{
   text-shadow: none;
 }
 @media (max-width: 700px) {
-    h1{
-      font-size: 4rem;
-    }
+  h1{
+    font-size: 4rem;
+  }
+  h1 img{
+  max-width: 4rem;
+  }
 }
